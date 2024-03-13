@@ -1,0 +1,37 @@
+body {
+    background: url('/images/harley.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    width: 400px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.425);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 
+}
+
+.central div{
+    width: 120px;
+    height: 120px;
+    background: black;
+    color: white;
+    font-size: 80px;
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central span{
+    font-size: 80px;
+}
