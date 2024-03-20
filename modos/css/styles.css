@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: right;
+}
+
+img{
+    width: 100px;
+}
+
+.diaPront{
+    background: linear-gradient(cyan, red);
+}
+
+.noitePront{
+    background: linear-gradient(darkblue, black);
+}
+
