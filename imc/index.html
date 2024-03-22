@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <main id="container">
+        <section id="img">
+            <img src="images/ilust.svg">
+        </section>
+
+        <section id="calculator">
+            <form id="form">
+                <h1 id="title">
+                    Calculadora - IMC
+                </h1>
+
+                <div class="input-box">
+                    <label for="weight">
+                        Peso em KG
+                    </label>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-weight-scale"></i>
+                        <input type="number" id="weight" required>
+                        <span>
+                            Kg
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="input-box">
+                    <label for="height">
+                        Altura em metros
+                    </label>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-ruler-combined"></i>
+                        <input type="number" id="height" required>
+                        <span>
+                            m
+                        </span>
+                    </div>
+                </div>
+
+
+                <button id="calculate">
+                    Calcular
+                </button>
+            </form>
+
+            <div id="description">
+                <span id="result"></span>
+            </div>
+
+            <div id="more-info">
+                <a href="https://bvsms.saude.gov.br/bvs/dicas/215_obesidade.html">
+                    Mais Informações sobre o IMC
+                    <i class="fa-solid fa-link"></i>
+                </a>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/imc.js"></script>
+
+</body>
+
+</html>
