@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/images/lofi-japanese-3840x2160-14884.jpg);
+    background-size: cover; /*mudar tamanho da pagina*/
+}
+
+.meio{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    background: rgba(0, 255, 255, 0.63);
+    box-shadow: 3px 3px 8px rgb(122, 72, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* flex direction para mudar a direção dos filhos*/
+    gap: 16px;
+}
+
+.meio input{
+    width: 280px;
+    height: 20px;
+    border: none;
+    outline: 1.5px solid rgb(54, 41, 245);
+    border-radius: 3px;
+    background: rgb(221, 165, 175);
+}
+
+.meio input:hover{
+    color: pink;
+    background: purple;
+    outline: 2px solid cyan;
+}
+
+.meio button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: 1.5px solid rgb(69, 42, 224);
+    border-radius: 8px;
+    background: rgb(197, 100, 201);
+    font-size: 16px;
+    color: rgb(150, 8, 163);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.meio button:hover{
+    color: darkcyan;
+    background: rgb(87, 76, 155);
+}
+
+.meio span{
+    font-size: 15px;
+}
